@@ -1,0 +1,190 @@
+.body{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{margin:0;padding:0;}
+
+
+.header,.header-2{
+    background-color: #d90429;    
+}
+.header,
+.header-links{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+ul,a{
+    text-decoration: none;
+    list-style-type: none;
+    gap: 20px;
+    display: flex;
+    color: #c3c3c4;
+    align-items: center; 
+}
+
+.header-2{
+    display: flex;
+    height: 500px;
+    justify-content: space-around;
+    padding-left: 60px;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #bebec9;
+    padding: 0%;
+    margin: 0%;
+}
+p{
+    font-size: 18px;
+    color: #b3a0a0;
+    padding: 0%;
+    margin: 0%;
+}
+.main{
+    margin-top: 80px;
+}
+
+.img{
+    margin-top: 100px;
+    background-color: grey;
+    padding-right: 200px;
+    margin-bottom: 200px;
+}
+
+button{
+    background-color: #2b2d42;
+    color: #E5E7EB;
+    align-content: center;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 15px 10px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: 900;
+}
+
+h2{
+    display: flex;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin: 0%;
+    justify-content: center;
+    padding-top: 50px;
+    background-color: #edf2f4;
+}
+
+.content{
+    display: flex;
+    padding-top: 150px;
+    justify-content: space-evenly;
+    gap: 50px;
+    height: 500px;
+    background-color: #edf2f4;
+}
+
+.p2{
+    display: flex;
+    color: #1f2937;
+    font-size: 15px;
+    padding-top: 200px;
+}
+
+.mid{
+    display: flex;
+    background-color: #8d99ae;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.p3{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    flex-wrap: wrap;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#special{
+    display: flex;
+    align-self: flex-end;
+    font-weight: bolder;
+    margin-top: 0;
+    font-size: 22px;
+    font-style: normal;
+    color: #1f2937;
+    background-color: #edf2f4;
+}
+
+
+.end{
+    margin-top: 50px;
+}
+
+.end div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ef233c;
+    color: white;
+    width: 45vw;
+    height: 12vh;
+    border-radius: 4px;
+    margin: auto;
+}
+
+
+.end div .end-con{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.end div .end-con #call{
+    display: flex;
+    font-weight: bolder;
+    font-size: 5px;
+    justify-content: space-around;
+    flex: 0 1 auto;
+}
+
+.call{
+    font-size: 15px;
+    color:#2b2d42;
+}
+
+.end-cont{
+    background-color: #2b2d42;
+}
+.end div button{
+    box-sizing: border-box;
+    background-color: #2b2d42;
+    border: 2px solid white;
+    border-radius: 6.5px;
+    color: white;
+}
+
+button{
+    display: flex;
+    font-size: 8px;
+    text-align: center;
+    align-content: center;
+    
+}
+footer{
+    display: flex;
+    gap: 10px;
+    background-color: #d90429;
+    color: #c3c3c4;
+    justify-content: center;
+    margin-top: 50px;
+}
